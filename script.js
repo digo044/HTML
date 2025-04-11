@@ -7,7 +7,7 @@ function hora(){
    let minutos = tempo.getMinutes();
    let segundos = tempo.getSeconds();
     
-   relogio.innerHTML 
+   relogio.innerHTML = `${horas}:${minutos}:${segundos}`
 
   }
   
